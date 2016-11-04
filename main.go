@@ -4,7 +4,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/fasthttp"
 	"github.com/labstack/echo/middleware"
-	"github.com/rafaeljesus/kyp-secret-key-gen/handlers"
+	"github.com/rafaeljesus/kyp-secret-key/handlers"
 	"log"
 	"os"
 )
@@ -20,7 +20,7 @@ func main() {
 	v1.GET("/healthz", handlers.HealthzIndex)
 	v1.POST("/secret-key", handlers.SecretKeyCreate)
 
-	log.Print("Starting Kyp Secret Key Gen Service...")
+	log.Print("Starting Kyp Secret Key Service...")
 
-	e.Run(fasthttp.New(":" + os.Getenv("KYP_SECRET_KEY_GEN_PORT")))
+	e.Run(fasthttp.New(":" + os.Getenv("KYP_SECRET_KEY_PORT")))
 }

@@ -1,4 +1,4 @@
-## Kyp Secret Key Gen
+## Kyp Secret Key
 
 * Kyp Secret Key Generator Microservice.
 
@@ -6,7 +6,7 @@
 
 Env vars
 ```bash
-export KYP_SECRET_KEY_GEN_PORT=3000
+export KYP_SECRET_KEY_PORT=3000
 ```
 
 ## Contributing
