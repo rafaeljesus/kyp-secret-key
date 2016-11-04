@@ -6,7 +6,7 @@
 
 Env vars
 ```bash
-export KYP_SECRET_KEY_PORT=3000
+export KYP_SECRET_KEY_PORT=3002
 ```
 
 ## Contributing
@@ -15,6 +15,11 @@ export KYP_SECRET_KEY_PORT=3000
 - Commit your changes (`git commit -am 'Add some feature'`)
 - Push to the branch (`git push origin my-new-feature`)
 - Create new Pull Request
+
+## Bagdes
+[![CircleCI](https://circleci.com/gh/rafaeljesus/kyp-secret-key.svg?style=svg)](https://circleci.com/gh/rafaeljesus/kyp-secret-key)
+[![](https://images.microbadger.com/badges/image/rafaeljesus/kyp-secret-key.svg)](https://microbadger.com/images/rafaeljesus/kyp-secret-key "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/rafaeljesus/kyp-secret-key.svg)](https://microbadger.com/images/rafaeljesus/kyp-secret-key "Get your own version badge on microbadger.com")
 
 ---
 
